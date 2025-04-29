@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Juno Park</title>
+  <style>
+    :root {
+      --main-color: #4e54c8;
+      --accent-color: #8f94fb;
+      --text-color: #333;
+      --bg-color: #f9f9f9;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--main-color), var(--accent-color));
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 1rem auto;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile-img:hover {
+      transform: scale(1.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: var(--main-color);
+      margin-top: 2rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: 1rem auto;
+    }
+
+    ul li {
+      background: #f0f0ff;
+      margin: 8px 0;
+      padding: 10px 15px;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    ul li:hover {
+      background: #e2e4fe;
+    }
+
+    a {
+      color: var(--main-color);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: var(--accent-color);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      margin: 2rem 0 1rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .container {
+        margin: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hello, I'm Juno Park</h1>
+    <p>Welcome to my personal website for the Web Programming midterm</p>
+  </header>
+
+  <div class="container">
+    <img src="profile.png" alt="My Profile" class="profile-img">
+
+    <h2>About Me</h2>
+    <p style="text-align: center;">I'm a student of Web Programming at XYZ University. I love front-end design, learning about responsive web development, and creating smooth user experiences.</p>
+
+    <h2>Contact Info</h2>
+    <ul>
+      <li>Email: juno@example.com</li>
+      <li>Phone: 010-5555-1234 (fake)</li>
+      <li>GitHub: <a href="https://github.com/junopark" target="_blank">github.com/junopark</a></li>
+    </ul>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5 / CSS3</li>
+      <li>Responsive Web Design</li>
+      <li>JavaScript (Basic)</li>
+    </ul>
+
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Digital Drawing</li>
+      <li>Gaming & Rhythm Games</li>
+      <li>Watching Tech YouTube Channels</li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2025 Juno Park | Web Programming Midterm
+  </footer>
+
+</body>
+</html>
